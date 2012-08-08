@@ -1,0 +1,24 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="org.gatein.myuitest.ImageSizeTest" duration-ms="18502" started-at="2012-08-07T19:38:28Z" finished-at="2012-08-07T19:38:47Z">
+    <groups>
+      <group name="common">
+        <method signature="org.gatein.myuitest.ImageSizeTest.imageSizeTest()" name="imageSizeTest" class="org.gatein.myuitest.ImageSizeTest"/>
+      </group>
+      <group name="epp5.0">
+        <method signature="org.gatein.myuitest.ImageSizeTest.imageSizeTest()" name="imageSizeTest" class="org.gatein.myuitest.ImageSizeTest"/>
+      </group>
+    </groups>
+    <test name="Command line test" duration-ms="18502" started-at="2012-08-07T19:38:28Z" finished-at="2012-08-07T19:38:47Z">
+      <class name="org.gatein.myuitest.ImageSizeTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="3139" started-at="2012-08-07T19:38:28Z" finished-at="2012-08-07T19:38:32Z">
+        </test-method>
+        <test-method status="PASS" signature="imageSizeTest()" name="imageSizeTest" duration-ms="15291" started-at="2012-08-07T19:38:32Z" finished-at="2012-08-07T19:38:47Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="65" started-at="2012-08-07T19:38:47Z" finished-at="2012-08-07T19:38:47Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
