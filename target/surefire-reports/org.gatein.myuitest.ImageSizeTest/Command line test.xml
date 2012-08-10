@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Command line test" failures="0" tests="1" time="18.502" errors="0">
+<testsuite name="Command line test" failures="0" tests="1" time="25.468" errors="0">
   <properties/>
-  <testcase name="imageSizeTest" time="15.291" classname="org.gatein.myuitest.ImageSizeTest"/>
+  <testcase name="imageSizeTest" time="21.88" classname="org.gatein.myuitest.ImageSizeTest"/>
 </testsuite>

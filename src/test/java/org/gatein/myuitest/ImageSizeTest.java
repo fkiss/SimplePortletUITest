@@ -3,6 +3,8 @@ package org.gatein.myuitest;
 import junit.framework.Assert;
 import org.jboss.gatein.selenium.AbstractTestCase;
 import static org.jboss.gatein.selenium.common.CommonHelper.*;
+import static org.jboss.gatein.selenium.applicationregistry.ApplicationRegistryHelper.*;
+import static org.jboss.gatein.selenium.page.PageHelper.*;
 import org.testng.annotations.Test;
 
 /**
@@ -20,11 +22,34 @@ public class ImageSizeTest extends AbstractTestCase {
     
         @Test(groups={"epp5.0", "common"})
 	public void imageSizeTest() throws Exception {
-		System.out.println("--Start Image Size Test--");
+                String simplePortletCategory = ELEMENT_EDIT_PAGE_CATEGORY_MENU.replace("${categoryLabel}", "SimplePortlet-1.0");
+                String viewerPortlet = "//div[@id='SimplePortlet-1.0/local._SimplePortlet-1.0.Photo of the day']";
+                String changerPortlet = "//div//*[@id='SimplePortlet-1.0/local._SimplePortlet-1.0.Photo Changer']";
+                String siteMapPortlet = "//div[@id='UISiteMap']";
+                String dragAndDropVerification = ELEMENT_EDIT_PAGE_COMPONENT_FIRST + PORTLET_LABEL.replace("${portletName}", "Photo of the day");
+                
+            
+                System.out.println("--Start Image Size Test--");
 		
 		openPortal(true);
 		
 		signInAsRoot();
+                
+                goToApplicationRegistry();
+                
+                autoImportApplications();
+                
+                mouseOver(ELEMENT_LINK_SITE, true);
+                mouseOverAndClick(ELEMENT_LINK_CLASSIC_PORTAL);
+                
+                goToEditPage();
+                
+                click(simplePortletCategory);
+                
+                dragAndDropToObject(changerPortlet, ELEMENT_EDIT_PAGE_PAGE, null);
+                dragAndDropToObject(viewerPortlet, ELEMENT_EDIT_PAGE_PAGE, null);
+                
+                click("//a[@class='EdittedSaveButton']");
                 
                 select(dropDownMenu, "flickr");
                 click(save);

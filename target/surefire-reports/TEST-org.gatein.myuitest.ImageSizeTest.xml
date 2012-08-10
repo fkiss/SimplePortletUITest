@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="15.281" errors="0" skipped="0" tests="1" name="org.gatein.myuitest.ImageSizeTest">
+<testsuite failures="0" time="21.871" errors="0" skipped="0" tests="1" name="org.gatein.myuitest.ImageSizeTest">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.5.x86_64/jre/lib/amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="test" value="*ImageSizeTest*"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/fkiss/Downloads/epp-tests/MyUITest"/>
+    <property name="user.dir" value="/home/fkiss/NetBeansProjects/MyUITest"/>
     <property name="java.runtime.version" value="1.7.0_05-icedtea-mockbuild_2012_07_09_19_42-b00"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.5.x86_64/jre/lib/endorsed"/>
@@ -32,12 +32,12 @@
     <property name="java.class.version" value="51.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="3.5.0-2.fc17.x86_64"/>
-    <property name="user.home" value="/home/fkiss"/>
+    <property name="user.home" value="/root"/>
     <property name="user.timezone" value="Europe/Bratislava"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="1.7"/>
-    <property name="user.name" value="fkiss"/>
+    <property name="user.name" value="root"/>
     <property name="java.class.path" value="/usr/local/apache-maven/apache-maven-3.0.4/boot/plexus-classworlds-2.4.jar"/>
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
@@ -60,5 +60,5 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="15.281" classname="org.gatein.myuitest.ImageSizeTest" name="imageSizeTest"/>
+  <testcase time="21.871" classname="org.gatein.myuitest.ImageSizeTest" name="imageSizeTest"/>
 </testsuite>
