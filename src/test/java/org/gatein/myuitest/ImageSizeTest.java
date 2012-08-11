@@ -2,8 +2,9 @@ package org.gatein.myuitest;
 
 import junit.framework.Assert;
 import org.jboss.gatein.selenium.AbstractTestCase;
+import static org.jboss.gatein.selenium.applicationregistry.ApplicationRegistryHelper.autoImportApplications;
 import static org.jboss.gatein.selenium.common.CommonHelper.*;
-import static org.jboss.gatein.selenium.applicationregistry.ApplicationRegistryHelper.*;
+import static org.gatein.myuitest.MyCommonHelper.getHeight;
 import static org.jboss.gatein.selenium.page.PageHelper.*;
 import org.testng.annotations.Test;
 

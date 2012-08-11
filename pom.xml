@@ -8,7 +8,7 @@
         <artifactId>tests-parent</artifactId>
         <version>5.2.2-SNAPSHOT</version>
     </parent>
-    <artifactId>My-UI-test</artifactId>
+      <artifactId>My-UI-test</artifactId>
     <packaging>jar</packaging>
 
     <name>My UI test</name>
@@ -265,11 +265,6 @@
     </profiles>
     
     <dependencies>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>${org.seleniumhg.selenium.selenium-java.version}</version>
-        </dependency>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
