@@ -1,22 +1,22 @@
 <testng-results>
   <reporter-output>
   </reporter-output>
-  <suite name="org.gatein.myuitest.ImageSizeTest" duration-ms="25468" started-at="2012-08-10T13:30:07Z" finished-at="2012-08-10T13:30:33Z">
+  <suite name="org.gatein.myuitest.ImageChangeTest" duration-ms="52976" started-at="2012-08-13T13:34:59Z" finished-at="2012-08-13T13:35:52Z">
     <groups>
       <group name="common">
-        <method signature="org.gatein.myuitest.ImageSizeTest.imageSizeTest()" name="imageSizeTest" class="org.gatein.myuitest.ImageSizeTest"/>
+        <method signature="org.gatein.myuitest.ImageChangeTest.imageChangeTest()" name="imageChangeTest" class="org.gatein.myuitest.ImageChangeTest"/>
       </group>
       <group name="epp5.0">
-        <method signature="org.gatein.myuitest.ImageSizeTest.imageSizeTest()" name="imageSizeTest" class="org.gatein.myuitest.ImageSizeTest"/>
+        <method signature="org.gatein.myuitest.ImageChangeTest.imageChangeTest()" name="imageChangeTest" class="org.gatein.myuitest.ImageChangeTest"/>
       </group>
     </groups>
-    <test name="Command line test" duration-ms="25468" started-at="2012-08-10T13:30:07Z" finished-at="2012-08-10T13:30:33Z">
-      <class name="org.gatein.myuitest.ImageSizeTest">
-        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="3219" started-at="2012-08-10T13:30:07Z" finished-at="2012-08-10T13:30:11Z">
+    <test name="Command line test" duration-ms="52976" started-at="2012-08-13T13:34:59Z" finished-at="2012-08-13T13:35:52Z">
+      <class name="org.gatein.myuitest.ImageChangeTest">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="4085" started-at="2012-08-13T13:34:59Z" finished-at="2012-08-13T13:35:03Z">
         </test-method>
-        <test-method status="PASS" signature="imageSizeTest()" name="imageSizeTest" duration-ms="21880" started-at="2012-08-10T13:30:11Z" finished-at="2012-08-10T13:30:32Z">
+        <test-method status="PASS" signature="imageChangeTest()" name="imageChangeTest" duration-ms="48817" started-at="2012-08-13T13:35:03Z" finished-at="2012-08-13T13:35:52Z">
         </test-method>
-        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="364" started-at="2012-08-10T13:30:32Z" finished-at="2012-08-10T13:30:33Z">
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="69" started-at="2012-08-13T13:35:52Z" finished-at="2012-08-13T13:35:52Z">
         </test-method>
       </class>
     </test>
