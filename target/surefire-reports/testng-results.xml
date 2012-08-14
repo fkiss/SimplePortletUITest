@@ -1,7 +1,7 @@
 <testng-results>
   <reporter-output>
   </reporter-output>
-  <suite name="org.gatein.myuitest.ImageChangeTest" duration-ms="52976" started-at="2012-08-13T13:34:59Z" finished-at="2012-08-13T13:35:52Z">
+  <suite name="org.gatein.myuitest.ImageChangeTest" duration-ms="34526" started-at="2012-08-14T19:23:32Z" finished-at="2012-08-14T19:24:07Z">
     <groups>
       <group name="common">
         <method signature="org.gatein.myuitest.ImageChangeTest.imageChangeTest()" name="imageChangeTest" class="org.gatein.myuitest.ImageChangeTest"/>
@@ -10,13 +10,13 @@
         <method signature="org.gatein.myuitest.ImageChangeTest.imageChangeTest()" name="imageChangeTest" class="org.gatein.myuitest.ImageChangeTest"/>
       </group>
     </groups>
-    <test name="Command line test" duration-ms="52976" started-at="2012-08-13T13:34:59Z" finished-at="2012-08-13T13:35:52Z">
+    <test name="Command line test" duration-ms="34526" started-at="2012-08-14T19:23:32Z" finished-at="2012-08-14T19:24:07Z">
       <class name="org.gatein.myuitest.ImageChangeTest">
-        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="4085" started-at="2012-08-13T13:34:59Z" finished-at="2012-08-13T13:35:03Z">
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="2751" started-at="2012-08-14T19:23:32Z" finished-at="2012-08-14T19:23:35Z">
         </test-method>
-        <test-method status="PASS" signature="imageChangeTest()" name="imageChangeTest" duration-ms="48817" started-at="2012-08-13T13:35:03Z" finished-at="2012-08-13T13:35:52Z">
+        <test-method status="PASS" signature="imageChangeTest()" name="imageChangeTest" duration-ms="31693" started-at="2012-08-14T19:23:35Z" finished-at="2012-08-14T19:24:07Z">
         </test-method>
-        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="69" started-at="2012-08-13T13:35:52Z" finished-at="2012-08-13T13:35:52Z">
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="75" started-at="2012-08-14T19:24:07Z" finished-at="2012-08-14T19:24:07Z">
         </test-method>
       </class>
     </test>

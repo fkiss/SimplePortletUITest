@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.gatein.myuitest.ImageChangeTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 53.428 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.913 sec

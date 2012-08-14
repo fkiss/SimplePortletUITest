@@ -36,7 +36,10 @@ public class ImageChangeTest extends AbstractTestCase {
 		openPortal(true);
 		
 		signInAsRoot();
-                pause(2000);
+                
+                goToApplicationRegistry();
+                
+                autoImportApplications();
                 
                 insertPortlet(viewerPortlet);
                 
@@ -67,7 +70,6 @@ public class ImageChangeTest extends AbstractTestCase {
             }
             
             select(dropDownMenu, website);
-            pause(2000);
             click(save);
             
             mouseOver(ELEMENT_LINK_SITE, true);
@@ -75,8 +77,6 @@ public class ImageChangeTest extends AbstractTestCase {
             
             
             Assert.assertTrue(isTextAtElementEqual("//div[@class='website']", website));
-            
-            pause(2000); 
         }
         
         public void insertPortlet(String portlet){
