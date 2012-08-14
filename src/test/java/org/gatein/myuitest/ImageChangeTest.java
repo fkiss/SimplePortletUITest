@@ -41,6 +41,9 @@ public class ImageChangeTest extends AbstractTestCase {
                 
                 autoImportApplications();
                 
+                mouseOver(ELEMENT_LINK_SITE, true);
+                mouseOverAndClick(ELEMENT_LINK_CLASSIC_PORTAL);
+                
                 insertPortlet(viewerPortlet);
                 
                 flag = true;
